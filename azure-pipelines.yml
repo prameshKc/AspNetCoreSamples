@@ -16,7 +16,7 @@ variables:
 stages: 
 - stage: build
   jobs: 
-  - job: build-job
+  - job: buildjob
     steps:
     - task: DotNetCoreCLI@2
       displayName: dotnet build
